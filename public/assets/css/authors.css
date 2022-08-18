@@ -1,0 +1,302 @@
+.eplore-authore {
+    text-align: left; 
+}
+
+.author-profile-card-detail {
+    margin: 0px auto;
+    display: block;
+    width: 98%;
+}
+
+.author-card-image {
+    position: relative;
+}
+
+.author-card-image img {
+    border-radius: 10px;
+}
+
+.author-card-sub-image {
+    position:absolute;
+}
+
+.eplore-authore h6 {
+    color: var(--color2);
+    font-size: 22px;
+    letter-spacing: 3px;
+   position: relative;
+   font-weight: 600;
+   font-family: 'Sora', sans-serif;
+}
+.explore-author::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    height: 3px;
+    width: 17%;
+    background: var(--color2);
+    bottom: -5px;
+    display: block;
+}
+
+.eplore-authore h1 {
+    font-size: 50px;
+    color: #000;
+    font-weight: 700;
+    margin-top: 25px;
+    font-family: 'Sora', sans-serif;
+    padding: 20px 0px;
+    text-align: left;
+}
+
+.eplore-authore h2 {
+    font-size: 35px;
+    color: #000;
+    font-weight: 700;
+    margin-top: 25px;
+    font-family: 'Sora', sans-serif;
+    padding: 20px 0px;
+}
+
+.author-card {
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.authore-detail h4 {
+    text-align: center;
+    padding: 20px 0px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    font-family: 'Sora', sans-serif;
+}
+
+.authore-detail .btn-follow {
+    text-align: center;
+    padding: 6px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    display: block;
+    font-weight: 700;
+    margin: 10px auto;
+    border: 1px solid var(--color);
+    background-color: transparent;
+    font-family: 'Sora', sans-serif;
+}
+
+.author-card-sub-image {
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    width: 30%;
+    transform: translate(-50%, -20%);
+}
+
+.author-card-sub-image img {
+    border-radius: 50%;
+    border: 2px solid var(--color);
+    padding: 3px;
+}
+
+.top-sale-card {
+    background-color: #16151A;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.top-sale-images img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.top-sale-card-name h5 {
+    color: #fff;
+    margin-left: 10px;
+    font-family: 'Sora', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.top-sale-card-name {
+    margin-top: 10px;
+}
+
+.top-sale-items {
+    border-left: 2px solid #3A3A3A;
+    padding-left: 25px;
+}
+
+.top-sale-items h3 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Sora', sans-serif;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.top-sale-items p {
+    color: #fff;
+    font-size: 18px;
+    color: #A1A1A1;
+    font-family: 'Sora', sans-serif;
+    margin-bottom: 0;
+}
+
+.author-profile-card {
+    width: 90%;
+    background-color: #D1D1D1;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 0px auto;
+}
+
+.author-profile-image img {
+    width: 33%;
+    border-radius: 50%;
+    margin: 0px auto;
+    display: block;
+}
+
+.author-profile-image {
+    margin: 10px auto;
+}
+
+.btn-follow-profile {
+    text-align: center;
+    padding: 6px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    display: block;
+    font-weight: 700;
+    margin: 10px auto;
+    border: 1px solid var(--color);
+    background-color: transparent;
+}
+
+.author-profie-subheading h6 {
+    font-size: 22px;
+}
+
+.author-profile-icon i {
+    font-size: 12px;
+    padding: 8px 8px;
+    color: #ADADAD;
+    border: 1px solid #ADADAD;
+    margin: 18px 4px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.author-profile-icon i:hover {
+    color: var(--color2);
+    border: 1px solid var(--color2);
+}
+
+.bg-blue {
+    background-color: var(--color2) !important;
+    color: #fff !important;
+    padding: 8px 10px !important;
+    border: 1px solid var(--color2) !important;
+}
+
+button.btn-button-author-profile {
+    font-size: 16px;
+    color: var(--color3);
+    padding: 3px 15px;
+    margin: 8px;
+    border: 1px solid var(--color3);
+    background: transparent;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+.card-author-profile {
+    background-color: #EAEAEA;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.card-author-profile-image {
+    position: relative;
+}
+
+.card-author-profile-timer p {
+    position: absolute;
+    bottom: 8px;
+    background: var(--color2);
+    color: #fff;
+    font-size: 20px;
+    padding: 3px 10px;
+    left: 10%;
+    border-radius: 3px;
+}
+
+.card-author-profile-image  img {
+    border-radius: 15px;
+}
+
+button.btn-button-author-profile:hover {
+    color: #0009;
+}
+
+.card-author-profile-sub-image img {
+    width: 50%;
+    border-radius: 50%;
+    
+}
+
+.card-author-profile-name {
+    margin: 20px 0px;
+}
+
+.card-author-profile-name h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.card-author-profile-bottom-button {
+    background: var(--color2);
+    padding: 12px 30px;
+    border-radius: 8px;
+    color: #fff;
+    margin: 20px 0px 0px 0px;
+    font-family: 'Sora', sans-serif;
+}
+
+.card-author-profile-bottom-button h6 {
+    margin-bottom: 2px;
+}
+.author-profie-subheading h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 12px;
+    font-family: 'Sora', sans-serif;
+}
+
+.author-profie-subheading h6 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    position: relative;
+    font-family: 'Sora', sans-serif;
+}
+
+.author-profie-subheading h6::after {
+    position: absolute;
+    content: "";
+    background-color: #000;
+    height: 1px;
+    width: 76%;
+    left: 12%;
+    bottom: 0;
+    display: block;
+}

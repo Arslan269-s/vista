@@ -1,0 +1,163 @@
+.create-profile-card {
+    background-color: #A1A1A1;
+    padding: 30px 20px 50px 20px;
+    border-radius: 10px;
+    width: 94%;
+    margin: 0px auto;
+}
+
+.create-item {
+    width: 90%;
+    margin: 0px auto;
+    display: block;
+}
+
+.create-profie-subheading {
+    color: #fff;
+}
+
+.create-profie-subheading h6 {
+    font-size: 22px;
+    font-family: 'Sora', sans-serif;
+}
+
+.create-form {
+    border: 1px solid var(--color2);
+    padding: 40px;
+    border-radius: 10px;
+
+    
+}
+
+.create-subheading h2 {
+    font-size: 60px;
+    margin: 15px 0px 40px 0px;
+    font-family: 'Sora', sans-serif;
+    color: #000;
+}
+
+.create-profile-icon i {
+    font-size: 10px;
+    padding: 10px 11px;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 20px 4px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.create-profile-icon i:hover {
+    background-color: var(--color2);
+    border: 1px solid var(--color2);
+}
+
+.btn-follow-profile-create {
+    text-align: center;
+    padding: 6px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    color: #fff !important;
+    display: block;
+    font-weight: 700;
+    margin: 10px auto;
+    border: 2px solid #fff !important;
+    background-color: transparent;
+}
+
+.create-item-button {
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    font-weight: 700;
+    margin: 20px 0px;
+    border: 1px solid #fff;
+    background-color: var(--color2);
+}
+
+.create-subheading h6 {
+    color: var(--color2);
+    font-size: 25px;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.create-subheading h6::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 85px;
+    background-color: var(--color2);
+    bottom: 1px;
+}
+
+textarea.comment {
+    width: 98%;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid var(--color2);
+}
+
+.item-price {
+    width: 100%;
+    margin: 10px;
+}
+
+.royality {
+    width: 50%;
+}
+
+input.input-fileds1 {
+    width: 95%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid var(--color2);
+    margin: 10px 0px;
+}
+
+.input-fileds2 {
+    width: 98%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid var(--color2);
+    margin: 10px 0px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.textarea-input {
+    width: 98%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid var(--color2);
+    margin: 10px 0px;
+}
+
+.create-profie-subheading h3 {
+    font-size: 20px;
+    font-family: 'Sora', sans-serif;
+}
+
+.create-profie-subheading h6 {
+    font-size: 18px;
+    font-family: 'Sora', sans-serif;
+    padding-top: 12px;
+    position: relative;
+}
+
+.create-profie-subheading h6::after{
+position: absolute;
+    content: "";
+    background-color: #fff;
+    height: 1px;
+    width: 82%;
+    left: 10%;
+    bottom: 3px;
+    display: block;
+}

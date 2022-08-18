@@ -1,0 +1,64 @@
+.notification-section .container {
+    width: 70% !important;
+    max-width: 70%;
+    margin: 10px auto;
+}
+
+.notification-section-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin: 40px 15px;
+    display: block;
+}
+
+.notification-section-details {
+    background-color: var(--color);
+    border-radius: 10px;
+    padding-top: 50px;
+    margin: 10px 0px;
+    position: relative
+}
+
+.notification-close span {
+    position: absolute;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    top: 4px;
+    right: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.notification-section-image {
+    width: 88px;
+    height: 88px;
+    margin: 18px auto;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.notification-section-detail {
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.notification-section-detail h5 {
+    color: #fff;
+    font-family: 'Sora', sans-serif;
+}
+
+.notification-section-detail p {
+    color: #fff;
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+}
+
+.ten_mint_ago {
+    font-size: 12px;
+    padding-top: 10px;
+}

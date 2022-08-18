@@ -1,0 +1,297 @@
+.cart-breadcrumbs {
+    padding: 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFB;
+}
+
+.breadcrumb-item {
+    font-size: 18px;
+    color: var(--color2);
+    font-weight: 400;
+    font-family: 'Sora', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.card-price h2 {
+    margin-right: 100px;
+}
+
+.card-details {
+    border-bottom: 2px solid #F6F7F8;
+    padding: 10px 0px;
+}
+
+.card-nfts-image {
+    margin: 10px 40px;
+}
+
+.card-nfts-detail h6{
+    margin-bottom: 0;
+    font-family: 'Sora', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-dolar-payment h5 {
+    margin-bottom: 0;
+    font-family: 'Sora', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.fa-x {
+    color: #FF5767;
+    background: #f3eaeb;
+    padding: 7px 8px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+.quantity {
+    background: #ddd;
+    padding: 5px 0px;
+    width: 70%;
+    display: block;
+    margin: 4px auto;
+}
+
+.quty {
+    padding: 0px 20px;
+    font-family: 'Sora', sans-serif;
+}
+.cart-padding-top {
+    padding-top: 45px !important;
+}
+
+.card-method {
+    margin: 30px 0px;
+}
+
+.fee-schedule {
+    width: 32%;
+}
+
+.subtotal h4 {
+    float: left;
+    width: 86%;
+    padding: 0px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Sora', sans-serif;
+}
+
+.subtotal h3 {
+    float: left;
+    width: 86%;
+    padding: 8px 0px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Sora', sans-serif;
+}
+
+th.price-qty h4 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Sora', sans-serif;
+}
+
+.subtotal h5 {
+    padding: 8px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-family: 'Sora', sans-serif;
+}
+
+.checkout-button {
+    padding: 10px 30px;
+    background-color: var(--color2);
+    color: #fff;
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+    border: 2px solid var(--color2);
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Sora', sans-serif;
+}
+
+.card-input {
+    width: 50%;
+}
+
+.card-input {
+    position: relative;
+}
+
+input.card-input-filed {
+    padding: 10px 20px;
+    width: 50%;
+    position: relative;
+    border: 2px solid #F0F3F4;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: 'Sora', sans-serif;
+}
+
+button.card-submit {
+    position: absolute;
+    right: 49%;
+    height: 47px;
+    padding: 0px 16px;
+    border: 0;
+    font-size: 18px;
+    background-color: var(--color2);
+    color: #fff;
+    border-radius: 0 !important;
+    font-family: 'Sora', sans-serif;
+}
+
+/* -----Make Payment----- */
+
+.make-payment-icon i {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--color2);
+}
+
+.make-paymment-subheading h4 {
+    text-align: center;
+    font-size: 31px;
+    font-weight: 600;
+    color: var(--color2);
+    font-family: 'Sora', sans-serif;
+}
+
+input.user-detail {
+    padding: 15px;
+    width: 100%;
+    margin: 25px 0px;
+    border: 0;
+    border-radius: 10px;
+    background: #F5F5F5;
+    font-family: 'Sora', sans-serif;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea.text-area-detail {
+    border: 0;
+    background: #f5f5f5;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.save-credit-card {
+    font-family: 'Sora', sans-serif;
+    color: var(--color);
+    font-size: 14px;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.select-payment-method h5 {
+    color: var(--color2);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0px 15px 0px;
+    font-family: 'Sora', sans-serif;
+}
+
+.payment-method {
+    margin: 10px 0px;
+}
+
+.credit-card i {
+    font-size: 18px;
+    margin-right: 15px;
+    color: var(--color2);
+}
+
+.credit-card h6 {
+    font-size: 14px;
+    color: #1A3363;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.dabit-card {
+    background-color: #E9F0FF;
+   
+}
+
+.payment-method {
+    padding: 16px;
+}
+
+button.go-to-payment {
+    padding: 14px 60px;
+    border: 0;
+    background: var(--color2);
+    color: #fff;
+    font-size:18px;
+    font-weight: 600;
+    border-radius: 10px;
+    display: block;
+    margin: 25px auto;
+    border: 1px solid var(--color2);
+    font-family: 'Sora', sans-serif;
+}
+
+button.go-to-payment:hover {
+    background-color: transparent;
+    border: 1px solid var(--color);
+    color: var(--color);
+}
+
+    /* ----Make Payment Card---- */
+
+.credit-card-image img {
+    object-fit: cover;
+}
+
+.modal.show .modal-dialog {
+    transform: none;
+    width: 100% !important;
+    max-width: 70% !important;
+}
+
+/* ----Make Payment Card Success---- */
+
+.success {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.success i {
+    color: #fff;
+    background-color: var(--color2);
+    padding: 30px 35px;
+    font-size: 70px;
+    border-radius: 80px;
+    margin: 30px 0px;
+}
+
+.success h4 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
+}

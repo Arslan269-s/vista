@@ -1,0 +1,1026 @@
+.dashborad-main {
+    background-color: #F5F5F5; 
+    padding: 25px;
+    border-radius: 10px;
+    width: 90%; 
+}
+
+.your-auction-queues-user-dashboard {
+    background-color: #201E43;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.user-email {
+    width: 48%;
+}
+
+.dashborad-user-details {
+    font-family: 'Sora', sans-serif;
+}
+
+.dashborad-user-details h2 {
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.dashborad-user-details h6 {
+    color: #fff;    
+}
+
+.dashborad-user-details p {
+    color: #fff;
+    font-size: 12px;
+}
+
+.dashboard-eth {
+    padding: 20px 0px 5px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.etherem-account {
+    color: #2028C8 !important;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.etherem-account:hover {
+    color: #fff !important;
+}
+
+.dasboard-labels {
+    display:block;
+    color: #fff;
+    font-weight:600;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+.personal-info {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+
+.update-info {
+    width: 20% !important;
+    padding: 10px 20px !important;
+    margin: 30px 0px !important;
+    border: 2px solid #fff !important;
+}
+
+input.input-filed {
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 100%;
+    background: transparent;
+    color: #fff;
+}
+
+.reset-account {
+    cursor:pointer;
+    font-size: 16px;
+}
+
+.name-filed {
+    width: 48%;
+    margin:10px 0px;
+
+}
+
+.name-filed1 {
+    width: 31%;
+    margin:10px 0px;
+
+}
+
+select#select-country {
+    width: 100%;
+    padding: 10px;
+    background: #201E43;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.dashboard-eth h4 {
+    color:#fff;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.dashborad-main2 {
+    width: 90%;
+}
+
+.dashboard-min {
+    width: 70% !important;
+    display: block;
+    margin: 0px auto;
+}
+
+.dashborad-links ul li {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    padding: 8px 0px;
+}
+
+.dash-board-link {
+    display: block;
+    /* color: var(--color2); */
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Sora', sans-serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 90%;
+    text-align: left;
+}
+
+.dash-board-link:hover {
+    cursor: pointer;
+    background: #2028C8 !important;
+    color: #fff !important;  
+    transition:  0.4s ease;
+}
+
+.dash-manu {
+    width: 90%;
+}
+
+.links-name {
+    margin-left: 15px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.dash-board-link .links-icon {
+    /* color: var(--color2); */
+    font-size: 18px;
+
+}
+/* .dash-board-link .links-icon:hover {
+    color: #fff;
+    font-size: 18px;
+    transition:  0.4s ease;
+} */
+
+ a {
+    text-decoration: none !important;
+ }
+ .dash-board-balance {
+    background-image: linear-gradient(to right bottom, #7f88fe, #6e73ff, #5f5dff, #5244ff, #4822fd);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+ }
+
+ .dash-board-balance p {
+    color: #fff;
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Sora', sans-serif;
+ }
+
+ .dash-board-balance h4 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Sora', sans-serif;
+    padding: 12px 0px 18px 0px;
+ }
+
+ .top-blance-button {
+    background-color: #fff;
+    padding: 6px;
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+    border: 0;
+    border-radius: 10px;
+    color: #384CF7;
+    font-size: 16px;
+    font-weight: 600;
+ }
+
+ .top-blance-button:hover {
+    background: #2028C8;
+    color: #fff;  
+    transition:  0.4s ease-in-out;
+ }
+
+ .banner-1 {
+    background-image: url(../Image/banner1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+ }
+
+ .banner-2 {
+    background-image: url(../Image/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+ }
+ .own-nfts {
+    color: #fff;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Sora', sans-serif;
+ }
+
+ button.streat-sale {
+    padding: 4px 20px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+button.streat-sale:hover {
+    background: #2028C8;
+    color: #fff;  
+    transition:  0.4s ease-in-out;
+}
+
+.streat-sale1 {
+    float: left;
+     margin-left: 30px;
+ }
+
+ .streat-sale2 {
+   float: right;
+    margin-right: 30px;
+} 
+
+#days {
+    background-color: #201E43;
+    color: #fff;
+    padding: 3px;
+    border: 1px solid #201E43;
+    margin: 12px 5px;
+    border-radius: 5px;
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+}
+
+#days1 {
+    background-color: #201E43;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #201E43;
+    margin: 15px 0px;
+    border-radius: 5px;
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+    width: 100%;
+}
+
+#customers {
+    font-family: 'Sora', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+ .dash-board-collection {
+    background-color: #2028C8;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0px;
+     -webkit-box-shadow: 0px 10px 5px -4px rgba(192,192,192,0.5);
+    -moz-box-shadow: 0px 10px 5px -4px rgba(192,192,192,0.5);
+    box-shadow: 0px 10px 5px -4px rgba(192,192,192,0.5); 
+    
+}
+
+#customers th {
+    color: #A1A1E4;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Sora', sans-serif;
+    padding: 10px 0px;
+    margin: 0;
+  }
+
+  #customers tr td {
+    padding: 10px 0px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  table#customers tr td {
+   color: #ECEBF6;
+  }
+
+  .use-paddinng {
+    padding-left: 30px !important;
+  }
+
+  p.clint-name {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.minus {
+    color: red !important;
+}
+.plus {
+    color: #00A9BF !important;
+}
+
+.dash-board-page-details-image {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+} 
+
+img.dash-board-image {
+    width: 7%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.top-creators-details {
+    padding: 20px 0px;
+}
+
+.top-creators {
+    background-color: #4245CF;
+    padding: 40px;
+    margin: 25px 0px 0px 0px;
+    border-radius: 10px;
+    font-family: 'Sora', sans-serif;
+}
+
+.top-creators-image {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.top-see-all h4 {
+    color: #ECEBF6;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.top-see-all p {
+    color: #ACACE7;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.top-creators-name {
+    padding-left: 20px;
+}
+
+.top-creators-name h6 {
+    color: #ECEBF6;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.top-creators-name p {
+    font-size: 10px;
+    color: #ACACE7;
+    margin-bottom: 0;
+}
+
+.btn-follow {
+    background-color: #504DD4;
+    color: #ECEBF6;
+    border: 0;
+    border-radius: 10px;
+    display: block;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.btn-follow:hover {
+    background-color: #ECEBF6;
+    color: #504DD4;
+    transition: 0.4s ease-in-out;
+}
+
+.recently-img1 {
+    border-radius: 10px;
+    height: 280px !important;
+    width: 100%;
+    object-fit: cover;
+    margin: 10px auto;
+}
+
+.d-circle {
+    color: #ECEBF6;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 0;
+    padding: 20px 0px 10px 0px;
+}
+
+
+.recently-bid p {
+    margin-bottom: 0;
+    color: #ECEBF6;
+    font-size: 12px;
+}
+
+.recently-bid h6 {
+    margin-bottom: 0;
+    color: #B8ABFE;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* =====Inventory===== */
+
+.inventory-bg {
+    border-radius: 10px;
+    padding:0px 25px;
+    font-family: 'Sora', sans-serif;
+    background-color: var(--color);
+}
+
+.your-auction-queues {
+    background-color: #201E43;
+    padding: 25px;
+}
+
+.inventory-head {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form-select-inventory {
+    width: 60% !important;
+    display: block;
+    margin: 0px auto !important;
+}
+
+.searched {
+width: calc(100% - 30px);
+height: 40px;
+background-color: transparent;
+color: #fff;
+font-size: 14px;
+border-radius: 99px;
+border: none;
+padding: 0 45px 0 20px;
+font-weight: 400;
+border: 1px solid #504DD4;
+outline: none;
+width: 93%;
+}
+
+.auction-price p {
+    font-size: 14px;
+}
+
+.auction-price span {
+    font-size: 14px;
+}
+
+.search-btn {
+    width: auto;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+}
+
+.search-btn i.fa-solid.fa-magnifying-glass {
+    position: absolute;
+    top: -11px;
+    right: 30px;
+    color: #C3D0DE;
+}
+
+
+.set-auction-price-box, .auction-queue {
+    padding: 15px 10px;
+    margin: 26px 0px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.set-auction-price-box p {
+    text-align: center;
+}
+
+.set-auction-price-image img {
+    width: 30%;
+    display: block;
+    margin: 60px auto;
+    border-radius: 50%;
+}
+
+.purchase-price p {
+    margin-bottom: 0;
+}
+
+.set-auction-price-input {
+    background-color: #fff;
+    border: 2px solid #fff;
+    padding: 10px;
+    width: 100%;
+    color: #000;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.set-auction-price-input::placeholder {
+    color: #000 !important;
+}
+
+ .set-auction-price-input1::placeholder {
+    color: #000 !important;
+}
+
+#days12 {
+    background-color: #fff;
+    padding: 10px 5px;
+    border: 1px solid #fff;
+    margin: 15px 0px 30px 0px;
+    border-radius: 5px;
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    color: #000;
+}
+
+.days-form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.days-form-control:focus {
+    outline: none;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-container .fa-caret-down {
+    position: absolute;
+    right: 16px;
+    top: 52px;
+    color: #000;
+}
+
+.top-blance-button-auction {
+    background-color: #2028C8;
+    padding: 6px;
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.top-blance-button-auction:hover {
+    background: #fff;
+    color: #384CF7;
+    transition: 0.4s ease-in-out;
+}
+
+.set-auction-price-input1 {
+    background-color: #fff;
+    border: 2px solid #fff;
+    padding: 10px;
+    width: 94%;
+    color: #000;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.add-to-auction {
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+}
+
+.image-inventory {
+    position: relative;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 15px 0px;
+}
+
+.inventory-check {
+    position: absolute;
+    color: #000;
+    font-size: 18px;
+    right: 3px;
+    top: 3px;
+    background-color: greenyellow;
+    padding: 2px 1px 0px 0px;
+    border-radius: 4px;
+}
+
+.purchase-price1 {
+    font-size: 14px;
+}
+
+/* ====Collection==== */
+
+.collection-text {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Sora', sans-serif;
+    padding: 10px 0px;
+}
+
+.btn-collection {
+    border: 0;
+    margin: 0px 5px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Sora', sans-serif;
+}
+
+.btn-collection:hover {
+    background: #2028C8;
+    color: #fff;  
+    transition:  0.4s ease-in-out;
+}
+
+.collection-search {
+    display: block;
+    position: relative;
+    width: 46%;
+}
+
+.collections-input {
+    width: 60%;
+    position: relative;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: 2px solid var(--color2);
+    margin: 0px 5px 0px auto;
+    display: block;
+}
+
+i.fa-solid.fa-magnifying-glass.collections-icon {
+    position: absolute;
+    right: 20px;
+    top: 14px;
+}
+
+/* =====Activity===== */
+
+.time-unread {
+    padding: 10px 20px;
+    border: 2px solid #363b97;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Sora', sans-serif;
+    background-color: transparent;
+}
+
+.time-unread:hover {
+    background: #2028C8;
+    color: #fff;  
+    transition:  0.4s ease-in-out;
+}
+
+.notification-details, .item-offers {
+    background-color: var(--color);
+    padding: 20px;
+    font-family: 'Sora', sans-serif;
+    border-radius: 10px;
+}
+
+.notification-details p {
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.notification-details h6 {
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.item-offers {
+    text-align: center;
+    color: #fff;
+}
+
+.item-offers-image  {
+    margin: 50px auto;
+}
+
+.item-offers h4 {
+    padding: 10px 0px 0px 0px;
+    font-size: 18px;
+}
+
+.item-offers h3 {
+    font-size: 20px;
+}
+
+.item-offers h6 {
+    font-size: 18px;
+    padding: 22px 0px;
+}
+
+.congratulation {
+    font-size: 12px;
+    margin-bottom: 0;
+
+}
+
+.input-counter-offers {
+    width: 100%;
+    position: relative;
+    margin: 20px 0px 30px 0px;
+}
+
+.counter-offers-input {
+    width: 100%;
+    padding: 10px 15px;
+    position: relative;
+    border-radius: 10px;
+    border: 0;
+   
+}
+
+.counter-offers {
+    padding: 10px 15px;
+    position: absolute;
+    right: 0;
+    font-size: 16px;
+    border: 0;
+    top: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.counter-offers:hover {
+    background: #2028C8;
+    color: #fff;  
+    transition:  0.4s ease-in-out;
+}
+
+/* =====Transactions===== */
+
+.transactions-details-list-main {
+    background-color: var(--color);
+    padding: 40px 20px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.ribbon {
+    width: 145px;
+    height: 89px;
+    overflow: hidden;
+    position: absolute;
+}
+
+  .ribbon span {
+    position: absolute;
+    display: block;
+    width: 257px;
+    padding: 5px 15px 5px 0px;
+    background-color: #FF3074;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+    color: #fff;
+    font: 700 12px/1 'Sora', sans-serif;
+    text-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+    text-transform: uppercase;
+    text-align: -webkit-center;
+}
+
+.ribbon-top-right {
+    top: -1px;
+    right: -1px;
+}
+  .ribbon-top-right::before,
+  .ribbon-top-right::after {
+    border-top-color: transparent;
+    border-right-color: transparent;
+  }
+  .ribbon-top-right::before {
+    top: 0;
+    left: 0;
+  }
+  .ribbon-top-right::after {
+    bottom: 0;
+    right: 0;
+  }
+  .ribbon-top-right span {
+    left: -14px;
+    top: 31px;
+    transform: rotate(45deg);
+}
+
+.image-container-fluid {
+    height: auto;
+    box-sizing: content-box;
+    object-fit: cover;
+    width: 18%;
+    display: block;
+}
+
+img.transactions-details-list-img {
+    height: 80px;
+    object-fit: cover;
+    border-radius: 11px;
+    width: 100%;
+}
+
+.details-pervious-owner p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.transactions-details-list-tittle {
+    margin-left: 30px;
+    color: #fff;
+    font-family: 'Sora', sans-serif;
+}
+
+.transactions-details-pervious-owner {
+    color: #fff;
+    font-family: 'Sora', sans-serif;
+}
+
+.transactions-details-list-tittle p, .transactions-details-pervious-owner p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.transactions-details-list-tittle h4 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.transactions-details-total h4 {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #fff;
+    font-family: 'Sora', sans-serif;
+}
+
+.transactions-details-total-button span {
+    font-size: 12px !important;
+    padding: 0px !important;
+      
+}
+
+.transactions-details-total-button {
+    margin-right: 20px !important; 
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50% !important;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+    outline: 0;
+    margin: 0px auto;
+} 
+
+.modal-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 1rem 1rem; */
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+    width: 80%;
+    margin: 10px auto 0px auto;
+    padding: 22px 0px 0px 0px !important;
+}
+
+.name-filed-modal {
+    width: 86%;
+    margin:10px auto;
+    color: #000;
+    border: 2px solid #747E99 !important;
+    border-radius: 5px;
+}
+
+.name-filed-modal1 {
+    width: 86%;
+    margin:10px auto;
+    color: #000;
+    
+}
+
+.update-password {
+    background: var(--color2);
+    border-radius: 5px !important;
+    padding: 10px;
+    border: 0px;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Sora', sans-serif;
+    border-radius: 5px;
+}
+
+.update-password:hover {
+    background-color: #201E43;
+    transition: all 0.4s ease-in-out;
+}
+
+.reset-passwords {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Sora', sans-serif;
+    border-radius: 5px;
+}
+
+.modal-header {
+    border: 0 !important;
+}
+
+.deactivate-cancel {
+    background: var(--color2);
+    border-radius: 5px !important;
+    padding: 10px;
+    border: 0px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Sora', sans-serif;
+    border-radius: 5px;
+    margin: 5px 30px;
+}
+
+.deactivate-cancel:hover {
+    background-color: #201E43;
+    transition: all 0.4s ease-in-out;
+}
+
+p.decative-text {
+    color: #000;
+    font-size: 14px;
+    font-family: 'Sora', sans-serif;
+    padding: 5px 35px;
+}
+
+.connect-with-account img {
+    width: 40%;
+    display: block;
+    margin: 0px auto 10px auto;
+}
+
+.connect-with-account h4 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.connect-with-account {
+    border: 2px solid #000;
+    margin: 10px 40px;
+    padding: 15px;
+    border-radius: 5px;
+}

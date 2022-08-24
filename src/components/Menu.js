@@ -2,7 +2,7 @@ const Menu = [
     {
         eth: "3.19 ETH",
         timer: "2:41 mint left",
-        image: "Images/Untitled-4.jpg",
+        image: "https://ms-marketplace-frontend.s3.ap-south-1.amazonaws.com/assets/images/nft-item/monkey.jpg",
         wishlist: "120",
         avatar1: "Images/image-3.png",
         avatar2: "Images/image-4.png",
@@ -12,7 +12,7 @@ const Menu = [
     {
         eth: "1.11 ETH",
          timer: "3:11 mint left",
-        image : "Images/Untitled-1.jpg",
+        image : "https://ms-marketplace-frontend.s3.ap-south-1.amazonaws.com/assets/images/nft-item/monkey.jpg",
         wishlist: "570",
         avatar1: "Images/image-3.png",
         avatar2: "Images/image-4.png",
@@ -22,7 +22,7 @@ const Menu = [
     {
         eth: "1.63 ETH",
         timer: "3:12 mint left",
-        image: "Images/Untitled-2.jpg",
+        image: "https://ms-marketplace-frontend.s3.ap-south-1.amazonaws.com/assets/images/nft-item/monkey.jpg",
         wishlist: "98",
         avatar1: "Images/image-3.png",
         avatar2: "Images/image-5.png",
@@ -32,7 +32,7 @@ const Menu = [
     {
         eth: "2.55 ETH",
          timer: "1:31 mint left",
-        image: "Images/Untitled-4.jpg",
+        image: "https://ms-marketplace-frontend.s3.ap-south-1.amazonaws.com/assets/images/nft-item/monkey.jpg",
         wishlist: "54",
         avatar1: "Images/image-3.png",
         avatar2: "Images/image-6.png",
@@ -43,7 +43,7 @@ const Menu = [
     {
         eth: "2.55 ETH",
          timer: "1:31 mint left",
-        image: "Images/Untitled-4.jpg",
+        image: "https://ms-marketplace-frontend.s3.ap-south-1.amazonaws.com/assets/images/nft-item/monkey.jpg",
         wishlist: "54",
         avatar1: "Images/image-3.png",
         avatar2: "Images/image-6.png",
@@ -54,7 +54,7 @@ const Menu = [
     {
         eth: "2.55 ETH",
          timer: "1:31 mint left",
-        image: "Images/Untitled-4.jpg",
+        image: "https://ms-marketplace-frontend.s3.ap-south-1.amazonaws.com/assets/images/nft-item/monkey.jpg",
         wishlist: "54",
         avatar1: "Images/image-3.png",
         avatar2: "Images/image-6.png",
@@ -65,7 +65,7 @@ const Menu = [
     {
         eth: "2.55 ETH",
          timer: "1:31 mint left",
-        image: "Images/Untitled-4.jpg",
+        image: "https://ms-marketplace-frontend.s3.ap-south-1.amazonaws.com/assets/images/nft-item/monkey.jpg",
         wishlist: "54",
         avatar1: "Images/image-3.png",
         avatar2: "Images/image-6.png",
@@ -76,7 +76,7 @@ const Menu = [
     {
         eth: "2.55 ETH",
          timer: "1:31 mint left",
-        image: "Images/Untitled-4.jpg",
+        image: "https://ms-marketplace-frontend.s3.ap-south-1.amazonaws.com/assets/images/nft-item/monkey.jpg",
         wishlist: "54",
         avatar1: "Images/image-3.png",
         avatar2: "Images/image-6.png",
@@ -87,7 +87,7 @@ const Menu = [
     {
         eth: "2.55 ETH",
          timer: "1:31 mint left",
-        image: "Images/Untitled-4.jpg",
+        image: "https://ms-marketplace-frontend.s3.ap-south-1.amazonaws.com/assets/images/nft-item/monkey.jpg",
         wishlist: "54",
         avatar1: "Images/image-3.png",
         avatar2: "Images/image-6.png",

@@ -17,11 +17,11 @@ img.react-modal-image {
 }
 
 .item-detail-heading {
-    padding: 30px;
+    padding: 0px 30px 30px 30px;
 }
 
 .item-detail-heading h1 {
-    font-size: 50px;
+    font-size: 35px;
     text-align: left;
     font-weight: 700;
     font-family: 'Sora', sans-serif;
@@ -53,10 +53,11 @@ img.react-modal-image {
 }
 
 p.item-detail-p {
-    font-size: 20px;
+    font-size: 16px;
     color: var(--color4);
-    padding: 15px 0px 30px 0px;
+    padding: 8px 0px 10px 0px;
     font-family: 'Sora', sans-serif;
+    margin-bottom:0;
 }
 
 .item-detail-sab-detail-text p {
@@ -72,7 +73,7 @@ p.item-detail-p {
 
 .item-detail-current-price {
     background-color: #F2F3F6;
-    padding: 40px 60px;
+    padding: 20px 30px;
     border-radius: 20px;
     margin: 20px 0px;
 }
@@ -97,10 +98,10 @@ p.item-detail-p {
     font-weight: 600;
     display: block;
     border: 2px solid var(--color2);
-    width: 100%;
+    width: 50%;
     padding: 10px 30px;
     border-radius: 10px;
-    margin: 30px 0px;
+    margin: 23px 5px;
 }
 
 i.icon-item {
@@ -165,6 +166,60 @@ img.item-detail-main {
 
 .time-left h5 {
     font-size: 25px;
+    color: #FF2D19;
     font-weight: 600;
     font-family: 'Sora', sans-serif;
+}
+
+.other-info-list-detail {
+    display:flex;
+    align-items: baseline
+}
+
+.author-p-thumb {
+    width:100px;
+    margin-bottom: 10px;
+}
+
+.authors-img {
+    width:70px
+}
+
+.item-info-details p {
+    margin-bottom: 12px;
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+    color: var(--color4);
+}
+
+.item-info-title h6 {
+    font-family: 'Sora', sans-serif;
+    font-size: 16px;
+    color: var(--color4);
+}
+
+.make-ofer {
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+    color: var(--color4);
+    font-weight: 700;
+}
+
+.show-less {
+    font-size:14px;
+    color:var(--color2)
+}
+
+.dashboard-personal-info-detail {
+    padding:1px 40px;
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+    color: var(--color4);
+}
+
+.item-auction-current-price {
+    background-color: #F2F3F6;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 2px 0px;
 }

@@ -29,6 +29,16 @@ const DashboardMenu = [
         avatar3: "Images/image-6.png",
         avatar4: "Images/image-4.png",
     },
+    {
+        eth: "1.63 ETH",
+        timer: "3:12 mint left",
+        image: "Images/Untitled-2.jpg",
+        wishlist: "98",
+        avatar1: "Images/image-3.png",
+        avatar2: "Images/image-5.png",
+        avatar3: "Images/image-6.png",
+        avatar4: "Images/image-4.png",
+    },
       
     
 ];

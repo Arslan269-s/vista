@@ -15,7 +15,7 @@ export const Footer = () => {
                     <div className='col-md-6 col-lg-4 col-sm-12'>
                         <div className='footer-logo-section'  data-aos="fade-up" data-aos-duration="600">
                         <div className='marketplace footer'>
-                        <img src="assets/image/market-place-logo.svg" className='img-fluid market-place-logo' />
+                        <a href="/"><img src="assets/image/market-place-logo.svg" className='img-fluid market-place-logo' /></a>
                         </div>
                             <div className='tearm-of-service'>
                                 <span><a href ="">Support</a>

@@ -1,4 +1,4 @@
-.explore-main-background {
+/* .explore-main-background {
     background-image: url('../Image/explore-bag.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -8,6 +8,24 @@
     position: relative;
     top: -119px;
     z-index: -1;
+} */
+
+.explore-main-background {
+    background-image: url(../Image/explore-bag.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top:0;
+    /* top: -119px; */
+    z-index: -1;
+    background-repeat-x: inherit;
+}
+
+.explore-section {
+    padding-top: 150px;
 }
 
 h4.main-explore {

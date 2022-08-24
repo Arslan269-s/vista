@@ -26,7 +26,9 @@ export const Explore = () => {
 
   return (
     <>
-    <div className="explore-main-background"><h4 className="text-center main-explore">Explore</h4></div>
+    <div className="explore-main-background">
+      {/* <h4 className="text-center main-explore">Explore</h4> */}
+      </div>
     <div className="explore-section">
       <div className="section">
         <div className="container">
@@ -43,7 +45,7 @@ export const Explore = () => {
               <button className="btn-button-explore">Tranding Cards</button>
             </div>
           </div>
-          <div className="explore-detail padding-top padding-bottom">
+          <div className="explore-detail padding-bottom pt-4">
             <div className="row equal">
               <div className="col-md-3 col-lg-3 col-sm-12">
                   <div className="explore-filter"  data-aos="fade-up"  data-aos-duration="1000"  data-aos-offset="20">
@@ -223,7 +225,7 @@ export const Explore = () => {
                         </div>
                       </div>
                     </div>
-                  ))}
+                  ))};
                 </div>
                     <button className="explore-button-load-more" onClick={() => loadMore()} data-aos="fade-up"  data-aos-duration="1500"  data-aos-offset="20">Load More</button>
               </div>

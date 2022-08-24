@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Auction from "../AuctionMenu";
+import Auctions from "../AuctionMenu";
 import Rating from "../Rating";
 import AOS from 'aos';
 import CountUp from 'react-countup';
@@ -30,7 +30,7 @@ export const AuctionList = () => {
     });
   }, []);
 
-  const [auction, setAuction] = useState(Auction);
+  const [auction, setAuction] = useState(Auctions);
   const [rate, setRate] = useState(Rating);
   return (
     <div>
@@ -79,7 +79,7 @@ export const AuctionList = () => {
               </div>
             ))}
 
-  </div>
+    </div>
           </div>
           <button className="show-me-more-auction-list learn-more on-hover-effect top-to-bottom-effect">Show me more</button>
 

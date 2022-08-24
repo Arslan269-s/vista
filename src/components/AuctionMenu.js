@@ -1,4 +1,4 @@
-const Auction = [
+const Auctions = [
     {   id:0,
         image:"Images/Untitled-1.jpg",
         user:"active",
@@ -33,4 +33,4 @@ const Auction = [
     
 ];
 
-export default Auction;
+export default Auctions;

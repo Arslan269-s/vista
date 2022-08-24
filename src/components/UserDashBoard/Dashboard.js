@@ -35,12 +35,12 @@ export const Dashboard = () => {
                 <div className='col-md-9 col-sm-12 col-lg-9 dashborad-main2 '>
                   
              <Routes>
-            <Route path="/" element={<><Profile /> </>} />  
+            {/* <Route path="/" element={<><Profile /> </>} />   */}
             {/* <Route path="inventory" element={<><MenuLeft /> <Inventory /> </>} />   */}
              
             </Routes>
                       
-                  {/* <Inventory /> */}
+                  <Inventory />
                  {/* <Collections /> */}
                  {/* <Activity /> */}
                  {/* <PhysicalMerch /> */}

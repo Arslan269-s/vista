@@ -33,6 +33,7 @@ import { Dashboard } from './components/UserDashBoard/Dashboard';
 import {Notification} from './components/Notification';
 import { MenuLeft } from './components/UserDashBoard/MenuLeft';
 import { Inventory } from './components/UserDashBoard/Inventory';
+import {ListAuction} from './components/AuctionList/ListAuction';
 
 function App() {
   
@@ -50,23 +51,14 @@ function App() {
             <LandingPageSection5 />
             <AuctionList />
             <LandingPageSection6 /> 
-            {/* <Authors /> */}
-            {/* <AuthorsProfile /> */}
-            {/* <Activity /> */}
-            {/* <Blog /> */}
-            {/* <Create /> */}
-            {/* <Card /> */}
-            {/* <MakePayment /> */}
-            {/* <PaymentMethodCard /> */}
-            {/* <PaymentSuccess /> */}
-            
           </>
         } />
         <Route path="marketplace" element={<> 
          <Header />
         <Explore /></>} />
         <Route path="introduction" element={<> <Header /><Introduction /></>} />
-        <Route path="auction" element={<> <Header /><AuctionDetail /></>} />
+        <Route path="auction" element={<> <Header /><ListAuction /></>} />
+        <Route path="auctiondetail" element={<> <Header /><AuctionDetail /></>} />
         <Route path="detail" element={<> <Header /><ItemDetail /></>} />
         <Route path="create" element={<> <Header /> <Create /></>} />
         <Route path="cart" element={<> <Header /> <Card /></>} />
@@ -78,11 +70,6 @@ function App() {
         <Route path="login" element={<> <Header /><Contact /></>} />
         <Route path="login-acount" element={<> <Header /><Login /></>} />
         <Route path="notification" element={<> <Header /><Notification /> </>} />
-        {/* <Route path="inventory" element={ <>
-         <div className="row">
-          <div className="col-md-3 col-sm-12 col-lg-3 dashborad-main"><MenuLeft /></div>
-          <div className='col-md-9 col-sm-12 col-lg-9 '> <Inventory /> </div>
-          </div> </>} /> */}
       </Routes>
       <Footer />
    
@@ -95,4 +82,3 @@ function App() {
 
 export default App;
 
-//ARSlan
